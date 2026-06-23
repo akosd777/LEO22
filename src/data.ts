@@ -137,8 +137,7 @@ export const EQUIPMENT_SERVICES: EquipmentServiceType[] = [
       '진단 후 긴급 보수가 필요한 소모품 오링 즉각 무상 교체',
       '메인터넌스 데이터베이스에 세부 기록 보존'
     ],
-    priceRange: '20,000원 ~ 40,000원',
-    period: '당일 또는 1일 소요'
+    priceRange: '20,000원 ~ 40,000원'
   },
   {
     id: 'repair',
@@ -156,8 +155,7 @@ export const EQUIPMENT_SERVICES: EquipmentServiceType[] = [
       '수리 완료 후 6개월 무상 결함 부위 보증 제도 운영',
       '교체한 노후 소모 부품을 고객에게 투명하게 인도 및 설명'
     ],
-    priceRange: '30,000원 ~ (부품비 별도)',
-    period: '2일 ~ 4일 소요'
+    priceRange: '30,000원 ~ (부품비 별도)'
   },
   {
     id: 'overhaul',
@@ -175,8 +173,7 @@ export const EQUIPMENT_SERVICES: EquipmentServiceType[] = [
       '작업 완료 시 분해/세척/세팅 전후 정밀 촬영 사진 모바일 즉각 전송',
       '정비 후 오버홀 인증 성적서 발행 및 1년간 성능 보증'
     ],
-    priceRange: '100,000원 ~ 180,000원 (서비스 키트 부품 일체 포함)',
-    period: '3일 ~ 7일 소요 (장비 수거 및 안전성 가이딩 포함)'
+    priceRange: '100,000원 ~ 180,000원 (서비스 키트 부품 일체 포함)'
   },
   {
     id: 'technician',
@@ -194,7 +191,6 @@ export const EQUIPMENT_SERVICES: EquipmentServiceType[] = [
       '호흡 분석 진단 피드백 서비스 제공',
       '급작스러운 장비 트러블을 위한 현장 테크니컬 지원 및 상시 어드바이스'
     ],
-    priceRange: '개별 맞춤 견적 (상담 후 결정)',
-    period: '사전 예약제 상시 운영'
+    priceRange: '개별 맞춤 견적 (상담 후 결정)'
   }
 ];

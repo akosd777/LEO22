@@ -35,7 +35,7 @@ export interface EquipmentServiceType {
   steps: string[];
   features: string[];
   priceRange: string;
-  period: string;
+  period?: string;
 }
 
 export interface CalculatorItem {

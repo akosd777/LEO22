@@ -99,9 +99,6 @@ export default function EquipmentService({ onOpenInquiry }: EquipmentServiceProp
                       {serv.nameEng}
                     </span>
                   </div>
-                  <span className="px-3 py-1.5 rounded-full bg-ocean-950/80 border border-ocean-800 text-xs font-medium text-ocean-300">
-                    {serv.period}
-                  </span>
                 </div>
 
                 <p className="text-xs sm:text-sm text-ocean-200 leading-relaxed font-light mb-6">
