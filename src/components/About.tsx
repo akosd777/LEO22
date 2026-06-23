@@ -5,14 +5,13 @@
 
 import { motion } from 'motion/react';
 import { Award, Compass, Shield, Users, BookOpen, MapPin, ChevronRight } from 'lucide-react';
+import profileImgUrl from '../assets/images/scuba_instructor_profile_1782240431041.jpg';
 
 interface AboutProps {
   onScrollToSection: (sectionId: string) => void;
 }
 
 export default function About({ onScrollToSection }: AboutProps) {
-  const profileImgUrl = '/src/assets/images/scuba_instructor_profile_1782240431041.jpg';
-
   const centerRecords = [
     {
       title: '5,400+일 연속 무사고 교육',

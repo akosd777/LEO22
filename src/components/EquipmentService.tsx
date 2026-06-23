@@ -6,14 +6,13 @@
 import { motion } from 'motion/react';
 import { Wrench, AlertTriangle, Clock, ArrowRight } from 'lucide-react';
 import { EQUIPMENT_SERVICES } from '../data';
+import workshopImgUrl from '../assets/images/scuba_equipment_maintenance_1782240446074.jpg';
 
 interface EquipmentServiceProps {
   onOpenInquiry: (type: 'education' | 'equipment' | 'general', itemName?: string) => void;
 }
 
 export default function EquipmentService({ onOpenInquiry }: EquipmentServiceProps) {
-  const workshopImgUrl = '/src/assets/images/scuba_equipment_maintenance_1782240446074.jpg';
-
   const overhaulProcess = [
     { step: '01', title: '입고 및 기본 테스팅', desc: '외관 검사 및 작동성 테스트를 거쳐 현재 상태를 수치 기록합니다.' },
     { step: '02', title: '완전 분해 및 초음파 세척', desc: '모든 나사와 가스켓을 완전 분해 후, 특수 전해액과 초음파 세척기를 이용하여 녹과 소금기를 완전히 박리합니다.' },

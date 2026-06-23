@@ -5,6 +5,7 @@
 
 import { motion } from 'motion/react';
 import { Award, ShieldCheck, Wrench, ArrowRight, Compass } from 'lucide-react';
+import heroImgUrl from '../assets/images/scuba_hero_underwater_1782240419136.jpg';
 
 interface HeroProps {
   onOpenInquiry: (type: 'education' | 'equipment' | 'general') => void;
@@ -12,9 +13,6 @@ interface HeroProps {
 }
 
 export default function Hero({ onOpenInquiry, onScrollToSection }: HeroProps) {
-  // Use the generated image path
-  const heroImgUrl = '/src/assets/images/scuba_hero_underwater_1782240419136.jpg';
-
   const trustBadges = [
     {
       icon: <Award className="h-5 w-5 text-amber-400" />,
