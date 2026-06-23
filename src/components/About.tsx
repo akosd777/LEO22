@@ -71,8 +71,7 @@ export default function About({ onScrollToSection }: AboutProps) {
             </span>
           </h2>
           <p className="mt-4 text-sm sm:text-base text-ocean-200 leading-relaxed">
-            LEO22 Scuba Center는 단순한 여행 대행사가 아닙니다. 심도 있는 이론적 학술 교육과 
-            세계 최정상급 제조사 정품 오버홀 기술을 갖춘 <strong>대한민국 최고의 엘리트 다이빙 아카데미</strong>입니다.
+            LEO22 Scuba Center는 단순한 스쿠버 대행사가 아닙니다. 심도 있는 이론적 학술 교육과 수준급 제조사 정품 오버홀 기술을 갖춘 <strong>최고의 엘리트 다이빙 아카데미</strong>입니다.
           </p>
         </div>
 
