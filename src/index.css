@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Noto+Sans+KR:wght@300;400;500;700;900&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Noto Sans KR", "Inter", system-ui, -apple-system, sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+  
+  --color-ocean-950: #000d1a;
+  --color-ocean-900: #001a33;
+  --color-ocean-800: #001f3f;
+  --color-ocean-700: #002d5a;
+  --color-ocean-650: #003c78;
+  --color-ocean-600: #0a5cb3;
+  --color-ocean-500: #1d75dc;
+  --color-ocean-400: #3a93ec;
+  --color-ocean-300: #6cb4f4;
+  --color-ocean-200: #9cd4f9;
+  --color-ocean-100: #d0eeff;
+  --color-ocean-50: #e6f2ff;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    font-family: var(--font-sans);
+  }
+  
+  body {
+    background-color: var(--color-ocean-950);
+    color: #f3f4f6;
+    overflow-x: hidden;
+  }
+
+  /* Custom Scrollbar */
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #000d1a;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #001f3f;
+    border-radius: 4px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #002d5a;
+  }
+}
+
+/* Glassmorphism utility & Bento Panel */
+.glass-panel {
+  background: rgba(0, 26, 51, 0.6);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(0, 45, 90, 0.5);
+}
+
+.bento-card {
+  background-color: #001a33;
+  border: 1px solid rgba(0, 45, 90, 0.5);
+  border-radius: 1.5rem; /* rounded-3xl */
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.bento-card:hover {
+  border-color: rgba(30, 144, 255, 0.4);
+  background-color: #001f3f;
+}
+
+.glass-panel-light {
+  background: rgba(255, 255, 255, 0.03);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.glow-blue {
+  box-shadow: 0 0 35px rgba(29, 117, 220, 0.2);
+}
+
+.glow-cyan {
+  box-shadow: 0 0 35px rgba(6, 182, 212, 0.15);
+}

@@ -1,0 +1,6 @@
+{
+  "name": "LEO22 Scuba Center",
+  "description": "Premium and professional scuba diving education and equipment overhaul center in Korea.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
